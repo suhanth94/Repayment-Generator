@@ -19,8 +19,9 @@ Sample Request:
  "startDate": "2019-01-01T00:00:01Z"
 }
 ```
-```json
 Sample Response:
+
+```json
 
 [
     {
