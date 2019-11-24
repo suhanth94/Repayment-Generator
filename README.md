@@ -1,6 +1,12 @@
-# Repayment_Assignment
+# Repayment Generator
 
-This assignment is implemented with Java 8, Maven Build and Spring Boot.
+This code is implemented with Java 8, Maven Build and Spring Boot.
+
+### Description:
+
+In order to inform borrowers about the final repayment schedule, we need to have pre-calculated repayment plans throughout the lifetime of a loan.The goal is to calculate a repayment plan for an annuity loan. Therefore the amount that the borrower has to pay back every month, consisting ofprincipal and interest repayments, does not change (the last installment might be an exception).
+
+### Running Instructions
 
 * Clone the GIT Repository
 * Import Project with the help of pom.xml
@@ -9,7 +15,7 @@ This assignment is implemented with Java 8, Maven Build and Spring Boot.
 * Hit API via any rest client (like Postman) with URI: http://localhost:8080/generate-plan
 * Provide Input Params like described below:
 
-Sample Request:
+#### Sample Request:
 
 ```json
 {
@@ -19,7 +25,7 @@ Sample Request:
  "startDate": "2019-01-01T00:00:01Z"
 }
 ```
-Sample Response:
+#### Sample Response:
 
 ```json
 
